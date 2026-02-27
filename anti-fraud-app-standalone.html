@@ -746,7 +746,7 @@
             ]
         };
 
-        function showPage(pageId) {
+        function showPage(event,pageId) {
             // 隐藏所有页面
             const pages = document.querySelectorAll('.page');
             pages.forEach(page => page.classList.remove('active'));
